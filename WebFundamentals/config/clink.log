@@ -1,0 +1,426 @@
+2f84 initialise_clink          100 Host process is 'cmd.exe'
+2f84 hook_setter::hook_setter   36 >>> Started hook transaction.
+2f84 hook_iat                   53 Attempting to hook IAT for module 00007FF7AE890000
+2f84 hook_iat                   54 Target is (null),SetEnvironmentVariableW (by_name=1)
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-string-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-time-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-runtime-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-private-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'ntdll.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-libraryloader-l1-2-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-synch-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-heap-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-errorhandling-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-threadpool-l1-2-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processthreads-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-localization-l1-2-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-debug-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-handle-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-memory-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-console-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-file-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-string-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+2f84 hook_iat                   81 Found import at 00007FF7AE8C6E98 (value = 00007FF9E1AEA720)
+2f84 hook_iat                   53 Attempting to hook IAT for module 00007FF96D170000
+2f84 hook_iat                   54 Target is (null),SetEnvironmentVariableW (by_name=1)
+2f84 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+2f84 hook_iat                   81 Found import at 00007FF96D22C1D0 (value = 00007FF9E2F97DC0)
+2f84 hook_iat                   53 Attempting to hook IAT for module 00007FF7AE890000
+2f84 hook_iat                   54 Target is (null),WriteConsoleW (by_name=1)
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-string-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-time-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-runtime-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-private-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'ntdll.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-libraryloader-l1-2-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-synch-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-heap-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-errorhandling-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-threadpool-l1-2-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processthreads-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-localization-l1-2-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-debug-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-handle-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-memory-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-console-l1-1-0.dll'
+2f84 hook_iat                   81 Found import at 00007FF7AE8C6AF0 (value = 00007FF9E1AAD2E0)
+2f84 hook_iat                   53 Attempting to hook IAT for module 00007FF96D170000
+2f84 hook_iat                   54 Target is (null),WriteConsoleW (by_name=1)
+2f84 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+2f84 hook_iat                   81 Found import at 00007FF96D22C0C8 (value = 00007FF9E2FA0D10)
+2f84 hook_iat                   53 Attempting to hook IAT for module 00007FF7AE890000
+2f84 hook_iat                   54 Target is (null),GetEnvironmentVariableW (by_name=1)
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-string-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-time-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-runtime-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-private-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'ntdll.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-libraryloader-l1-2-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-synch-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-heap-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-errorhandling-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-threadpool-l1-2-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processthreads-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-localization-l1-2-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-debug-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-handle-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-memory-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-console-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-file-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-string-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+2f84 hook_iat                   81 Found import at 00007FF7AE8C6E68 (value = 00007FF9E1A95FA0)
+2f84 hook_iat                   53 Attempting to hook IAT for module 00007FF96D170000
+2f84 hook_iat                   54 Target is (null),GetEnvironmentVariableW (by_name=1)
+2f84 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+2f84 hook_iat                   81 Found import at 00007FF96D22C1C8 (value = 00007FF9E2F94530)
+2f84 hook_setter::commit        88 <<< Hook transaction committed.
+2f84 hook_iat                   53 Attempting to hook IAT for module 00007FF7AE890000
+2f84 hook_iat                   54 Target is (null),GetEnvironmentVariableW (by_name=1)
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-string-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-time-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-runtime-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-private-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'ntdll.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-libraryloader-l1-2-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-synch-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-heap-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-errorhandling-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-threadpool-l1-2-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processthreads-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-localization-l1-2-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-debug-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-handle-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-memory-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-console-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-file-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-string-l1-1-0.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+2f84 hook_iat                   81 Found import at 00007FF7AE8C6E68 (value = 00007FF96D17D770)
+2f84 hook_setter::hook_setter   36 >>> Started hook transaction.
+2f84 hook_setter::add_detour   119 Attempting to hook ReadConsoleW in kernelbase.dll with 00007FF96D17DAE0.
+2f84 add_repair_iat_node       135 Attempting to hook IAT for module 00007FF96D170000.
+2f84 add_repair_iat_node       143 Target is ReadConsoleW (by name).
+2f84 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+2f84 add_repair_iat_node       168 Found import at 00007FF96D22C1C0 (value is 00007FF9E2FA0CC0).
+2f84 hook_setter::add_detour   119 Attempting to hook ReadConsoleW in kernel32.dll with 00007FF96D17DAE0.
+2f84 follow_jump               121 Following jump to 00007FF9E1B25AF0
+2f84 add_repair_iat_node       135 Attempting to hook IAT for module 00007FF96D170000.
+2f84 add_repair_iat_node       143 Target is ReadConsoleW (by name).
+2f84 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+2f84 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+2f84 add_repair_iat_node       168 Found import at 00007FF96D22C1C0 (value is 00007FF9E2FA0CC0).
+2f84 hook_setter::commit        88 <<< Hook transaction committed.
+2f84 extract_ctag              638 read 0 bytes
+2f84 extract_ctag              638 read 0 bytes
+2f84 history_db::initialise    789 master bank ctag: |CTAG_1698932938_78120906_12164_0
+2f84 history_db::compact       922 History:  0 active, 0 deleted
+2f84 win_screen_buffer::begin   77 Using native terminal support; found 'conemuhk64.dll'.
+37b4 initialise_clink          100 Host process is 'cmd.exe'
+37b4 hook_setter::hook_setter   36 >>> Started hook transaction.
+37b4 hook_iat                   53 Attempting to hook IAT for module 00007FF7AE890000
+37b4 hook_iat                   54 Target is (null),SetEnvironmentVariableW (by_name=1)
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-string-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-time-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-runtime-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-private-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'ntdll.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-libraryloader-l1-2-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-synch-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-heap-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-errorhandling-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-threadpool-l1-2-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processthreads-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-localization-l1-2-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-debug-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-handle-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-memory-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-console-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-file-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-string-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+37b4 hook_iat                   81 Found import at 00007FF7AE8C6E98 (value = 00007FF9E1AEA720)
+37b4 hook_iat                   53 Attempting to hook IAT for module 00007FF96D170000
+37b4 hook_iat                   54 Target is (null),SetEnvironmentVariableW (by_name=1)
+37b4 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+37b4 hook_iat                   81 Found import at 00007FF96D22C1D0 (value = 00007FF9E2F97DC0)
+37b4 hook_iat                   53 Attempting to hook IAT for module 00007FF7AE890000
+37b4 hook_iat                   54 Target is (null),WriteConsoleW (by_name=1)
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-string-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-time-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-runtime-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-private-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'ntdll.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-libraryloader-l1-2-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-synch-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-heap-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-errorhandling-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-threadpool-l1-2-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processthreads-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-localization-l1-2-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-debug-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-handle-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-memory-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-console-l1-1-0.dll'
+37b4 hook_iat                   81 Found import at 00007FF7AE8C6AF0 (value = 00007FF9E1AAD2E0)
+37b4 hook_iat                   53 Attempting to hook IAT for module 00007FF96D170000
+37b4 hook_iat                   54 Target is (null),WriteConsoleW (by_name=1)
+37b4 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+37b4 hook_iat                   81 Found import at 00007FF96D22C0C8 (value = 00007FF9E2FA0D10)
+37b4 hook_iat                   53 Attempting to hook IAT for module 00007FF7AE890000
+37b4 hook_iat                   54 Target is (null),GetEnvironmentVariableW (by_name=1)
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-string-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-time-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-runtime-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-private-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'ntdll.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-libraryloader-l1-2-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-synch-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-heap-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-errorhandling-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-threadpool-l1-2-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processthreads-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-localization-l1-2-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-debug-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-handle-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-memory-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-console-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-file-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-string-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+37b4 hook_iat                   81 Found import at 00007FF7AE8C6E68 (value = 00007FF9E1A95FA0)
+37b4 hook_iat                   53 Attempting to hook IAT for module 00007FF96D170000
+37b4 hook_iat                   54 Target is (null),GetEnvironmentVariableW (by_name=1)
+37b4 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+37b4 hook_iat                   81 Found import at 00007FF96D22C1C8 (value = 00007FF9E2F94530)
+37b4 hook_setter::commit        88 <<< Hook transaction committed.
+37b4 hook_iat                   53 Attempting to hook IAT for module 00007FF7AE890000
+37b4 hook_iat                   54 Target is (null),GetEnvironmentVariableW (by_name=1)
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-string-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-time-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-runtime-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-private-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'ntdll.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-libraryloader-l1-2-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-synch-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-heap-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-errorhandling-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-threadpool-l1-2-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processthreads-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-localization-l1-2-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-debug-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-handle-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-memory-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-console-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-file-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-string-l1-1-0.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+37b4 hook_iat                   81 Found import at 00007FF7AE8C6E68 (value = 00007FF96D17D770)
+37b4 hook_setter::hook_setter   36 >>> Started hook transaction.
+37b4 hook_setter::add_detour   119 Attempting to hook ReadConsoleW in kernelbase.dll with 00007FF96D17DAE0.
+37b4 add_repair_iat_node       135 Attempting to hook IAT for module 00007FF96D170000.
+37b4 add_repair_iat_node       143 Target is ReadConsoleW (by name).
+37b4 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+37b4 add_repair_iat_node       168 Found import at 00007FF96D22C1C0 (value is 00007FF9E2FA0CC0).
+37b4 hook_setter::add_detour   119 Attempting to hook ReadConsoleW in kernel32.dll with 00007FF96D17DAE0.
+37b4 follow_jump               121 Following jump to 00007FF9E1B25AF0
+37b4 add_repair_iat_node       135 Attempting to hook IAT for module 00007FF96D170000.
+37b4 add_repair_iat_node       143 Target is ReadConsoleW (by name).
+37b4 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+37b4 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+37b4 add_repair_iat_node       168 Found import at 00007FF96D22C1C0 (value is 00007FF9E2FA0CC0).
+37b4 hook_setter::commit        88 <<< Hook transaction committed.
+37b4 history_db::initialise    789 master bank ctag: |CTAG_1698932938_78120906_12164_0
+37b4 history_db::compact       922 History:  0 active, 0 deleted
+37b4 win_screen_buffer::begin   77 Using native terminal support; found 'conemuhk64.dll'.
+37b4 history_db::compact       922 History:  0 active, 0 deleted
+2040 initialise_clink          100 Host process is 'cmd.exe'
+2040 hook_setter::hook_setter   36 >>> Started hook transaction.
+2040 hook_iat                   53 Attempting to hook IAT for module 00007FF7AE890000
+2040 hook_iat                   54 Target is (null),SetEnvironmentVariableW (by_name=1)
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-string-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-time-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-runtime-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-private-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'ntdll.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-libraryloader-l1-2-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-synch-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-heap-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-errorhandling-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-threadpool-l1-2-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processthreads-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-localization-l1-2-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-debug-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-handle-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-memory-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-console-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-file-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-string-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+2040 hook_iat                   81 Found import at 00007FF7AE8C6E98 (value = 00007FF9E1AEA720)
+2040 hook_iat                   53 Attempting to hook IAT for module 00007FF96D170000
+2040 hook_iat                   54 Target is (null),SetEnvironmentVariableW (by_name=1)
+2040 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+2040 hook_iat                   81 Found import at 00007FF96D22C1D0 (value = 00007FF9E2F97DC0)
+2040 hook_iat                   53 Attempting to hook IAT for module 00007FF7AE890000
+2040 hook_iat                   54 Target is (null),WriteConsoleW (by_name=1)
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-string-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-time-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-runtime-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-private-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'ntdll.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-libraryloader-l1-2-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-synch-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-heap-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-errorhandling-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-threadpool-l1-2-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processthreads-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-localization-l1-2-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-debug-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-handle-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-memory-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-console-l1-1-0.dll'
+2040 hook_iat                   81 Found import at 00007FF7AE8C6AF0 (value = 00007FF9E1AAD2E0)
+2040 hook_iat                   53 Attempting to hook IAT for module 00007FF96D170000
+2040 hook_iat                   54 Target is (null),WriteConsoleW (by_name=1)
+2040 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+2040 hook_iat                   81 Found import at 00007FF96D22C0C8 (value = 00007FF9E2FA0D10)
+2040 hook_iat                   53 Attempting to hook IAT for module 00007FF7AE890000
+2040 hook_iat                   54 Target is (null),GetEnvironmentVariableW (by_name=1)
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-string-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-time-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-runtime-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-private-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'ntdll.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-libraryloader-l1-2-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-synch-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-heap-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-errorhandling-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-threadpool-l1-2-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processthreads-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-localization-l1-2-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-debug-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-handle-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-memory-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-console-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-file-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-string-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+2040 hook_iat                   81 Found import at 00007FF7AE8C6E68 (value = 00007FF9E1A95FA0)
+2040 hook_iat                   53 Attempting to hook IAT for module 00007FF96D170000
+2040 hook_iat                   54 Target is (null),GetEnvironmentVariableW (by_name=1)
+2040 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+2040 hook_iat                   81 Found import at 00007FF96D22C1C8 (value = 00007FF9E2F94530)
+2040 hook_setter::commit        88 <<< Hook transaction committed.
+2040 hook_iat                   53 Attempting to hook IAT for module 00007FF7AE890000
+2040 hook_iat                   54 Target is (null),GetEnvironmentVariableW (by_name=1)
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-string-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-time-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-runtime-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-crt-private-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'ntdll.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-libraryloader-l1-2-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-synch-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-heap-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-errorhandling-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-threadpool-l1-2-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processthreads-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-localization-l1-2-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-debug-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-handle-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-memory-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-console-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-file-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-string-l1-1-0.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+2040 hook_iat                   81 Found import at 00007FF7AE8C6E68 (value = 00007FF96D17D770)
+2040 hook_setter::hook_setter   36 >>> Started hook transaction.
+2040 hook_setter::add_detour   119 Attempting to hook ReadConsoleW in kernelbase.dll with 00007FF96D17DAE0.
+2040 add_repair_iat_node       135 Attempting to hook IAT for module 00007FF96D170000.
+2040 add_repair_iat_node       143 Target is ReadConsoleW (by name).
+2040 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+2040 add_repair_iat_node       168 Found import at 00007FF96D22C1C0 (value is 00007FF9E2FA0CC0).
+2040 hook_setter::add_detour   119 Attempting to hook ReadConsoleW in kernel32.dll with 00007FF96D17DAE0.
+2040 follow_jump               121 Following jump to 00007FF9E1B25AF0
+2040 add_repair_iat_node       135 Attempting to hook IAT for module 00007FF96D170000.
+2040 add_repair_iat_node       143 Target is ReadConsoleW (by name).
+2040 pe_info::iterate_imports  154 Checking imports in 'VERSION.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'SHLWAPI.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'dbghelp.dll'
+2040 pe_info::iterate_imports  154 Checking imports in 'KERNEL32.dll'
+2040 add_repair_iat_node       168 Found import at 00007FF96D22C1C0 (value is 00007FF9E2FA0CC0).
+2040 hook_setter::commit        88 <<< Hook transaction committed.
+2040 history_db::initialise    789 master bank ctag: |CTAG_1698932938_78120906_12164_0
+2040 history_db::compact       922 History:  2 active, 0 deleted
+2040 win_screen_buffer::begin   77 Using native terminal support; found 'conemuhk64.dll'.
+2040 history_db::compact       922 History:  2 active, 0 deleted
+2040 history_db::compact       922 History:  2 active, 0 deleted
+2040 history_db::compact       922 History:  2 active, 0 deleted
+2040 history_db::compact       922 History:  2 active, 0 deleted
+2040 history_db::compact       922 History:  2 active, 0 deleted
+2040 history_db::compact       922 History:  2 active, 0 deleted
+2040 history_db::compact       922 History:  2 active, 0 deleted
+2040 history_db::compact       922 History:  2 active, 0 deleted
+2040 history_db::compact       922 History:  2 active, 0 deleted
+2040 history_db::compact       922 History:  2 active, 0 deleted
+2040 history_db::compact       922 History:  2 active, 0 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted
+2040 history_db::compact       922 History:  1 active, 1 deleted

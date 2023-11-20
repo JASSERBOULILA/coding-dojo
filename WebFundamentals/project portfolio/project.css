@@ -1,0 +1,163 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    width: 1400px;
+    margin: 0 auto;
+} 
+
+.container-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* the side nav */
+nav{
+    display: flex;
+    flex: 1;
+    position: sticky;
+    top:0;
+    margin-left: 250px;
+    font-size: 30px;
+}
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border: 2px solid black;
+    width: 20%;
+    height:900px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    gap: 10px;
+}
+.home2{
+    font-size: 25px;
+    text-align: center;
+}
+.home1 img{
+    width: 15px;
+    height: 15px;
+}
+
+.middle-nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.left img{
+    width: 15px;
+    height: 15px;
+}
+.main img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.hidden {
+    display: none;
+}
+.right img{
+    width: 15px;
+    height: 15px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 100%;
+} 
+
+/* relase the types of li */
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.list a{
+    text-decoration: none;
+}
+
+.home2 a{
+    text-decoration: none;
+    text-align: center;
+}
+
+/* main{
+    flex: 3;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}   */
+
+.left-main{
+    display: flex;
+    flex: 2;
+}
+.Edu{
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+}
+.Edu img{
+    width: 200px;
+    height: 100px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media  screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    .Edu{
+        display: flex;
+        flex-direction: row;
+        gap:100px;
+    }
+    .Edu img{
+        width: 200px;
+        height: 100px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    
+    }
+}

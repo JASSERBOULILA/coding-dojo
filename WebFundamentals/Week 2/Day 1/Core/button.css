@@ -1,0 +1,88 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: silver;
+    width: 70%;
+    margin-left: 250px;
+    padding: 10px;
+}
+.nav button{
+    background:#2B78E4 ;
+    padding-top: 10px;
+    padding-bottom:10px;
+
+}
+.nav h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    gap: 40px;
+}
+.ninja{
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    border: 2px solid black;
+    width: 500px;
+    left:250px;
+    margin-top: 30px;
+}
+
+
+.ninja h1{
+    margin-left:40px;
+}
+.conta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -30px;
+}
+.second span{
+    text-decoration: underline;
+    color:#88ACCB;
+}
+.ninja button{
+    margin-left:40px;
+    margin-bottom: 10px;
+    background-color:#FFD966 ;
+    padding: 10px;
+}
+.first{
+    font-size: 20px;
+}
+
+.dojon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 200px;
+    height: 140px;
+    position: relative;
+    left:800px;
+    bottom:579px;
+    gap:1px;
+}
+.dojon button{
+    background-color: #93C47D;
+    width: 70%;
+    margin-left: 30px;
+}
+.dojon p{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.dojon span{
+    font-size: 20px;
+}

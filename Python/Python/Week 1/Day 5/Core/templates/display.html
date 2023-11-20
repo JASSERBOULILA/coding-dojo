@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+</head>
+<body>
+    <form action="/back" method="post">
+        <h2>Submitted info</h2>
+        <label for="Name">Name</label>
+        <p>{{session['name']}}</p>
+        <label for="Dojo Location :">Dojo Location</label>
+        <p>{{session['option']}}</p>
+        <label for="Favorite Language">Favorite Langauge</label>
+        <p>{{session['language']}}</p>
+        <label for="comment">Comment</label>
+        <p>{{session['comment']}}</p>
+        <button type="submit">Go Back</button>
+    </form>
+</body>
+</html>

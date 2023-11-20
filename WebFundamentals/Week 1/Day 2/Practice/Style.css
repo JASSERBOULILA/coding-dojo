@@ -1,0 +1,17 @@
+span{
+    color: white;
+}
+h1{
+    background-color: black;
+    color:aqua;
+}
+h2{
+    background-color: purple;
+    text-align: center;
+    color: white;
+}
+h3{
+    background-color: aqua;
+    text-align: right;
+    text-decoration: underline;
+}

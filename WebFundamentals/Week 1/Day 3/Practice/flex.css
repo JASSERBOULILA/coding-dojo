@@ -1,0 +1,35 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #333333;
+}
+li{
+    list-style-type:none;
+    color:#BDBDBD;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+h1{
+    color:#FCFCFC;
+    margin-left: 20px;
+}
+a{
+    color:#BDBDBD;
+    text-decoration: none;
+}
+.btn{
+    background-color: #17A2B8;
+    box-shadow: 2px 5px black;
+    color:#FFFFFF;
+}
+.active{
+    color:#FFFFFF;
+}

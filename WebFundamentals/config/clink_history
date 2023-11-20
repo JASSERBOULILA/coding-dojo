@@ -1,0 +1,33 @@
+|CTAG_1698932938_78120906_12164_0
+|d
+cat
+pad
+pwd
+ls
+ls -1
+ls -2
+ls -a
+|d .
+|d ..
+cd /
+|d .
+|d ..
+cd
+cd coding dojo
+cd C:\Users\PC\Desktop\coding dojo\WebFundamentals
+cd icons
+|d ..
+|kdir jasserBoulila
+rm jasserBoulila
+rmdir jasserBoulila
+mkdir jasserBoulila
+rm -rf jasserBoulila
+cd Week2
+cd Week 2
+cd Day 4
+|m index.html
+touch index.html
+rm index.html
+cd .
+|d ..
+cd ..

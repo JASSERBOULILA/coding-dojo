@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <script src="weather.js"></script>
+    <title>Dojo weather</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="left-nav">
+            <h1>DojoWeather</h1>
+        </div>
+        <div class="right-nav">
+            <ul >
+                <li onclick="affiche()">Burbank</li>
+                <li onclick="affiche()">Chicago</li>
+                <li onclick="affiche()">dallas</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="nav-title">
+            <div class="left">
+                <h2>San Jose</h2>
+            </div>
+            <div class="right">
+                <p>Show temperature in</p>
+                <select class="temp"id="myselect" onclick="convert()">Show temperature in
+                    <option value="°C">°C</option>
+                    <option value="°F">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="app">
+            <div class="weather">
+                <div class="today">
+                    <h4>Today</h4>
+                    <img src="some_rain.png" alt="Rainy" width="250px">
+                    <p>some rain</p>
+                </div>
+                <div class="degree">
+                        <p id="hot1">24°</p>
+                        <p id="hot2">18°</p>
+                </div>
+            </div>
+            <div class="weather">
+                <div class="today">
+                    <h4>Today</h4>
+                    <img src="some_sun.png" alt="Rainy" width="250px" >
+                    <p>some rain</p>
+                </div>
+                <div class="degree">
+                        <p>27°</p>
+                        <p>19°</p>
+                </div>
+            </div>
+            <div class="weather">
+                <div class="today">
+                    <h4>Today</h4>
+                    <img src="some_clouds.png" alt="Rainy" width="250px">
+                    <p>some rain</p>
+                </div>
+                <div class="degree">
+                        <p>29°</p>
+                        <p>16°</p>
+                </div>
+            </div>
+            <div class="weather">
+                <div class="today">
+                    <h4>Today</h4>
+                    <img src="some_sun.png" alt="Rainy" width="250px">
+                    <p>some rain</p>
+                </div>
+                <div class="degree">
+                        <p>26°</p>
+                        <p>21°</p>
+                </div>
+            </div>
+        </div>
+        <div class="down-navbar">
+            <div class="inner">
+                <div class="img">
+                    <img src="cookie.png" alt="cookie" width="100px">
+                </div>
+                <div class="text">
+                    <h3>
+                        Stop! Cookie Time
+                    </h3>
+                    <p>We use cookie (sadly not the edible ones) to personalise</p>
+                    <p>
+                    content and ads, to provide social media features and to analyse our traffic.<a href="#">Read More...</a>
+                    </p>
+
+                </div>
+                <div class="button">
+                    <button onclick="accept(this)">I Accept</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

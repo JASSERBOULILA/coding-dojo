@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='templates/ches.css')}}">
+    <title>Checkboard</title>
+</head>
+<body>
+    <h1 style="--color2: {{ color2 }};--color1: {{ color1 }};">***Checkboard***</h1>
+    <div class="container">
+        {% for i in range(row) %}
+            {% if i%2==0 %}
+            <div class="row">
+                {%for j in range(col//2) %}
+                    <div class="col1" style="--color1: {{ color1 }}"></div>
+                    <div class="col2" style="--color2: {{ color2 }}"></div>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% if i%2!=0 %}
+            <div class="row">
+                {%for j in range(col//2) %}
+                    <div class="col2" style="--color2: {{ color2 }}"></div>
+                    <div class="col1" style="--color1: {{ color1 }}"></div>
+                {% endfor %}
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</body>
+</html>
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    width: 100%;
+    background-color: var(--color1);
+    color:var(--color2);
+    text-align: center;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self:center;
+    align-items: center;
+}
+.col1{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color1);
+}
+.col2{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color2);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+</style>

@@ -1,0 +1,24 @@
+.container{
+    border:2px solid black;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.inner button{
+    background-color: yellow;
+}
+.container p{
+    justify-content: space-evenly;
+    margin-left:20px;
+    align-items: center;
+}

@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+.first-phase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #5AC6EB;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    }
+img{
+    width: 200px;
+    background-color: #51C5EC;
+    margin:2% 2% 2% 2%;
+
+}
+.second-phase{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #D8ABBE;
+}
+.third-phase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #FCFCFF;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+}

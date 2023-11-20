@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.home-content{
+    display: flex;
+    flex: 2;
+    margin: 0 auto;
+    margin-left: 280px;
+    margin-top: 60px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+}
+
+.switch input {
+    display: none;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2196F3;
+    -webkit-transition: .4s;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider img {
+    width: 35px;
+    position: absolute;
+    opacity: 0;
+}
+
+.sun {
+    left: 10px;
+}
+
+.moon {
+    right: 10px;
+}
+
+#toggle-switch:checked+.slider .moon {
+    opacity: 1;
+}
+
+#toggle-switch:not(:checked)+.slider .sun {
+    opacity: 1;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px grey;
+}
+
+input:checked+.slider {
+    background-color: grey;
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(55px);
+    -ms-transform: translateX(55px);
+    transform: translateX(55px);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+}
+
+main img {
+    width: 300px;
+}
+
+.profiles a {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+cookies {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    box-shadow: 5px 5px grey;
+    position: sticky;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+cookies img {
+    width: 100px;
+}
+
+.text-cookies {
+    margin-left: 3%;
+}
+
+
+

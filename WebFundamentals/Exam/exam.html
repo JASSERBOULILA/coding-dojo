@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exam.css">
+    <title>Exam</title>
+</head>
+
+<body>
+    <!-- create a main div to get all elemnt inside of it -->
+    <main class="main">
+        <!-- CREATE THE LEFT NAV -->
+        <nav class="side-nav">
+            <!-- INSIDE THE NAV THE TOP OF IT which conclud the h1 and the box  -->
+            <div class="inner-side">
+                <img src="/Exam/images/logo.png" alt="logo">
+                <!-- create the lists -->
+                <div class="links">
+                    <ul class="first-links">
+                        <li><a href="#"><span>About Us</span></a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Catering</a></li>
+                        <li><a href="#">Hours</a></li>
+                        <li>
+                            <div class="days">
+                                <p>mon to fri 11 am -10 pm</p>
+                                <p>sat 12 pm -1 am</p>
+                                <p>sun 12pm -9 pm</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Location</a>
+                        </li>
+                        
+                    </ul>
+                    <img id="img2" src="/Exam/images/map.png" alt="Navigation">
+                    <ul class="conact">
+                        <li><a href="#" onclick="alerrt()">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="right-main">
+            <div class="top">
+                <video src="/Exam/images/video.webm" muted autoplay class="video"></video>
+            </div>
+            <!-- CREATE THE LEFT MAIN which contain the video and the down 2 div -->
+            <div class="both">
+                <div class="down">
+                    <!-- create the left div -->
+                    <div class="left">
+                        <h2>Poke your way</h2>
+                        <div class="way">
+                            <div class="first" >
+                                <span>1</span>
+                                <p id="protein" onmouseover="hover1()" onmouseleave="over()">Choose your protein</p>
+                            </div>
+                            <div class="second" >
+                                <span>2</span>
+                                <p id="base" onmouseover="base()" onmouseleave="over1()">Choose your base</p>
+                            </div>
+                            <div class="third" >
+                                <span>3</span>
+                                <p id="marinade" onmouseover="mari()" onmouseleave="over2()">Choose your marinade</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CREATE THE LEFT MAIN which contain the video and the down 2 div -->
+                <div class="down">
+                    <!-- create the right div -->
+                    <div class="right">
+                        <div class="text">
+                            <div class="both-text">
+                                <h2>Poke</h2>
+
+                            </div>
+                            <div class="img">
+                                <img src="/Exam/images/pronounciation.png" alt="pronounciation">
+                            </div>
+                        </div>
+                        <div class="down-text">
+                            <p>noun</p>
+                            <p>Pronounced(Po-Kay) A popular Hawaiin dish of marianated ,died raw fish served over rice
+                            </p>
+                        </div>
+                        <!-- create an emty div to position the img to the left using space -beetwenn -->
+                        <div class="img-left">
+                            <div class="leftsdd">
+                            </div>
+                            <div class="thereralimg">
+                                <img id="img1" src="/Exam/images/sound-dark.png"  alt="sound-dark"
+                                    onclick="playY()">
+                                <audio src="/Exam/images/poke.mp3" id="audio"></audio>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="exam.js"></script>
+</body>
+
+
+</html>
