@@ -1,0 +1,9 @@
+code snippet 1)
+		console
+		["Paula","Smith","1234 Main Street","St. louis","MO"]
+code snippet 2)
+		console
+		["broccoli","ice cream","hasbrowns"]
+code snippet 3)
+		console
+		["bambi","beetlejuice","Toy Story","Zoro"]
