@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+</head>
+<body>
+    <form action="/back" method="post">
+        {% for dojo in dojos%}
+            <h2>Submitted info</h2>
+            <label for="Name">Name</label>
+            <p>{{dojo.name}}</p>
+            <label for="Dojo Location :">Dojo Location</label>
+            <p>{{dojo.location}}</p>
+            <label for="Favorite Language">Favorite Langauge</label>
+            <p>{{dojo.language}}</p>
+            <label for="comment">Comment</label>
+            <p>{{dojo['comment']}}</p>
+        {%endfor%}
+        <button type="submit">Go Back</button>
+    </form>
+</body>
+</html>
