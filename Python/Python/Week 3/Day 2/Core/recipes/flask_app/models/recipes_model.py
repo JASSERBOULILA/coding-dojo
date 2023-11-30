@@ -45,6 +45,7 @@ class Recipe:
         query=""" UPDATE recipes SET name=%(name)s,instructions=%(instructions)s,date_made=%(date_made)s,
                 under_30=%(under_30)s,description=%(description)s WHERE id=%(id)s; """
         return connectToMySQL(DATABASE).query_db(query,data)
+    
     @classmethod
     def destroy(cls,data):
         query="""DELETE FROM recipes WHERE id=%(id)s;"""
