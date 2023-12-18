@@ -27,9 +27,6 @@ def back():
     session.clear()
     return redirect('/')
 
-@app.route('/')
-def show_2():
-    return render_template('Dojo survey.html',session=session)
 
 
 if __name__=='__main__':

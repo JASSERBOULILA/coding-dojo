@@ -30,6 +30,7 @@ def one_user(id):
     data = {"id": id}
     user = User.get_one_by_id(data)
     return render_template("show_user.html", user=user)
+
 @app.route('/update')
 def edit():
     data={

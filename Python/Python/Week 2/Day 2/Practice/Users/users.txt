@@ -1,0 +1,18 @@
+*******-- first query*******
+INSERT INTO users VALUES("jasser","boulila","bhimlol123456@gmail.com");
+INSERT INTO users VALUES("adem","boulila","beast@gmail.com");
+INSERT INTO users VALUES("hawoa","boulila","adem@gmail.com");
+*******--second query*******
+SELECT * FROM users;
+*******-- third query*******
+SELECT * FROM users WHERE email = 'adem@gmail.com';
+*******-- fourth query*******
+SELECT * FROM users WHERE id=1;
+*******-- fifth query*******
+UPDATE users SET last_name="Pancakes" WHERE id=3;   
+*******-- sixth query*******
+DELETE FROM users WHERE id=2;
+*******-- seventh query*******
+SELECT * FROM users ORDER BY first_name;
+*******-- eigth query*******
+SELECT * FROM users ORDER BY first_name DESC;

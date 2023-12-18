@@ -1,0 +1,21 @@
+INSERT INTO dojos (name) VALUES ("jasser"),('anis'),('souleim');
+SET SQL_SAFE_UPDATES =0;
+DELETE FROM dojos WHERE name='jasser' or name='anis' or name='souleim';
+
+INSERT INTO dojos (name) VALUES ("ahmed"),('basel'),('adem');
+
+
+
+INSERT INTO ninjas (first_name,last_name, dojos_id) VALUES('jasser','boulila', 1),('anis','rouis', 1),('souleim','ben said', 1);
+INSERT INTO ninjas (first_name, last_name,dojos_id) VALUES('jasser','boulla', 2),('anis','rois', 2),('souleim','be said', 2);
+INSERT INTO ninjas (first_name,last_name, dojos_id) VALUES('jasser','boulia', 3),('anis','rous', 3),('souleim','bn said', 3);
+SELECT * FROM ninjas;
+SELECT * FROM ninjas N,dojos D WHERE D.id=N.dojos_id; 
+
+SELECT * FROM ninjas N,dojos D  WHERE D.id=N.dojos_id and N.id=9;
+
+SELECT * FROM ninjas JOIN dojos ON dojos.id=ninjas.dojos_id WHERE ninjas.id=6;
+
+SELECT * FROM ninjas JOIN dojos ON dojos.id=ninjas.dojos_id;
+
+
