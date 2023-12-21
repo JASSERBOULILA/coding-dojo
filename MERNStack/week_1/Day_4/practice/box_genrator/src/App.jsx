@@ -21,7 +21,7 @@ function App() {
           <label>Color</label>
           <input type="color" value={color} onChange={(e)=>setColor(e.target.value)}/>
           <input type="number" value={number} onChange={(e)=>setNumber(e.target.value)}/>
-          <button type='submit'>Change</button>
+          <button>Change</button>
         </form>
       </fieldset>
       {profile.map((element,idx) => <Box profiles={element} key={idx}/>)}
