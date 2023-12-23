@@ -1,38 +1,18 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-
-const TodoList = (props)=>{
-    const [checked,setChecked] = useState(false)
-    console.log(props.profile)
-    const change = (item)=>{
-        document.getElementById(`${item}`).remove();
-    }
-    const changeC = (idx)=>{
-        if(checked){
-            setChecked(false)
-        }else{
-            setChecked(true)
-        }
-    }
-    return (
-        <div>
-            {props.profile.map((element, idx) => (
-                <div key={idx} id={idx}>
-                    {checked ? (
-                        <p style={{ textDecoration: 'line-through' }}>{element}</p>
-                    ) : (
-                        <p>{element}</p>
-                    )}
-                    <input type='checkbox' onClick={changeC(idx)} value="checkBox"></input>
-                    <button onClick={() => change(idx)}>
-                        Delete
-                    </button>
-                </div>
-            ))}
-        </div>
-    )
+const PlansComponents = ({plans, updatePlan, deletePlan}) => {
+    // console.log("Props", props);
+  return (
+    <div>
+        {plans.map((plan, idx)=> <div key={idx} style={{display:"flex"}}>
+            <h4 style={plan.status?{textDecoration:"line-through"}:{}}>{plan.content}</h4>
+            <input type='checkbox' checked={plan.status} 
+            onChange={(e)=> updatePlan(idx)}
+            />
+            <button onClick={()=> deletePlan(idx)}>Remove</button>
+            </div>)}
+    </div>
+  )
 }
 
-
-
-export default  TodoList
+export default PlansComponents

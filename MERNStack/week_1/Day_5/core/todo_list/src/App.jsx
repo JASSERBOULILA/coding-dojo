@@ -1,25 +1,46 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import TodoList from './components/TodoList'
+import PlansComponents from './components/TodoList'
+import FromComponent from './components/FromComponent'
+
 function App() {
-  const [profile,setProfile] = useState([])
-  const [todo,setTodo] = useState('')
-  const createUser = (e)=>{
-    e.preventDefault()
-    setProfile([...profile,todo])
+  localStorage.setItem("plans",JSON.stringify({ content: "Wake up at 6 am", status: false },
+  { content: "Eat breakfast", status: true }))
+  const savedPlans  = JSON.parse(localStorage.getItem("plans"))
+  const [plans, setPlans] = useState([
+    { content: "Wake up at 6 am", status: false },
+    { content: "Eat breakfast", status: true }])
+  //  CREATE
+  const addPlan = (newPlan) => {
+    setPlans([...plans, newPlan])
+  }
+  // UPDATE
+  const updatePlan = (index) => {
+    console.log("Index of Plan to update", index);
+    // 1 * create a copy of plans
+    const plansUpdated = [...plans]
+    //2 * update the plan
+    plansUpdated[index].status = !plans[index].status
+    console.log(plansUpdated);
+    setPlans(plansUpdated)
+  }
+  // DELETE
+  const deletePlan = (index) => {
+    console.log("Plan To delete", index);
+    const filtredPlans = plans.filter((plan, idx)=> idx != index)
+    const filtredPlans2 = plans.filter((plan, idx)=> {
+      if(idx != index){
+        return plan
+      }
+    })
+    console.log(filtredPlans);
+    setPlans(filtredPlans)
   }
   return (
     <>
-      <fieldset>
-        <form onSubmit={createUser}>
-          <input type="text" onChange={(e)=>setTodo(e.target.value)}/>
-          <button>Add</button>
-          <TodoList profile={profile} />
-        </form>
-        
-      </fieldset>
+      <h1>Add Your Plans for Today</h1>
+      <FromComponent addPlan={addPlan} />
+      <PlansComponents plans={plans} updatePlan={updatePlan} deletePlan={deletePlan} />
     </>
   )
 }
