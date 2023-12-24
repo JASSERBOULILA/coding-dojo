@@ -1,0 +1,25 @@
+.tabs-container {
+    display: flex;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.active-tab {
+    background-color: #ccc; 
+}
+
+.content {
+    margin-top: 20px;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+}
+
+.content.hide {
+    opacity: 0;
+    pointer-events: none;
+}
