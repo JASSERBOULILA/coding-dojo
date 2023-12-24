@@ -10,6 +10,7 @@ const Hook = () => {
     const [email, setemail] = useState("")
     const [password, setPassword] = useState(0)
     const [confirmpassword, setConfirmPassword] = useState(0)
+    // this for validation
     const submitHandler = (e)=>{
         e.preventDefault();
         setProfile([...profile,first_name,lastname,email,password,confirmpassword])
