@@ -20,8 +20,8 @@ function fiveHeads() {
         }
         if(headsCount!=0){
             resolve(`It Tooks ${attempts} tries to flip fives 'heads'`);
-        }else{
-            reject(`It Tooks ${attempts} tries to flip fives heads`);
+        }else if(attempts > 100){
+            reject(`It Tooks more than ${attempts} tries to flip fives heads`);
         }
     });
 }
