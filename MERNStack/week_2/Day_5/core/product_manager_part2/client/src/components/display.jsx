@@ -17,9 +17,11 @@ const Main = (props) => {
         <div>
             <Form setProduct={props.setProduct}/>
             <hr />
+            <h1>All Products</h1>
             {res.map((element,idx)=>(
                 console.log(element),
-                <ProductList key={idx} prod={element} />
+                console.log(element._id),
+                <ProductList key={idx} prod={element} id={element._id} />
             ))}
         </div>
     )

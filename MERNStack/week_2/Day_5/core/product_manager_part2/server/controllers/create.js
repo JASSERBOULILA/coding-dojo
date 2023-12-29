@@ -29,3 +29,15 @@ module.exports.allProduct = (req,res)=>{
         res.json({error:"there is no data"})
     })
 };
+
+
+module.exports.findOne=(req,res)=>{
+    const {id} = req.params;
+    Prod.findById({_id:id}).then(one=>{
+        console.log("the one person is ",one);
+        res.status(200).json(one);
+    }).catch(error =>{
+        console.log(error);
+        res.status(400).json({error:"there is no one whith that id"});
+    })
+}

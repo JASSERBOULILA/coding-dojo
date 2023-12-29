@@ -1,12 +1,13 @@
 import React from 'react'
 import axios from 'axios';
 import { useState,useEffect } from 'react';
-
+import { Link } from 'react-router-dom';
 const ProductList = (props) => {
     const [prod, setProd] = useState(props.prod)
+    console.log(props.id)
     return (
         <div>
-            <p > The Title : {prod.title}, The Price : {prod.price},the Description : {prod.description}</p>
+            <Link to={`/products/${props.id}`} >{prod.description}</Link>
         </div>
     )
 }
