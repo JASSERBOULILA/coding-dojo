@@ -93,7 +93,7 @@ function App() {
   return (
     <>
       <h1>Add Your Plans for Today</h1>
-      <FromComponent addPlan={addPlan} input={input} setInput={setInput} />
+      <FromComponent addPlan={addPlan} error={state.error} input={input} setInput={setInput} />
       <PlansComponents plans={state.plans.value} updatePlan={updatePlan} deletePlan={deletePlan} />
     </>
   );

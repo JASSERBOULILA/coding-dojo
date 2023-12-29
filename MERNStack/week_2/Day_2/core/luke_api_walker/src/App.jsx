@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <Routes >
-      <Route path="/" element={<Home setData = {setData}/>}/>
+      <Route path="/" element={<Home setData = {setData} />}/>
       <Route path="/:planet/:id" element={<Display data={data} />} />
       <Route path="/error" element={<h1>Error</h1> }/>
     </Routes>

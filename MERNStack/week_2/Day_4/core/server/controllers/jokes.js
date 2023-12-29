@@ -60,7 +60,7 @@ module.exports.update = (req,res)=>{
     }
     Jokes.updateOne({_id:id},{$set:toupdate}).then(joke =>{
         console.log(`the joke has been updated ${id}`,joke);
-        res.json(joke);
+        res.status(202).json(joke);
     }).catch(error=>{
         console.log(error);
         res.status(500).json({error})

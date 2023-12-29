@@ -1,23 +1,17 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import First from './components/first'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const user=[{"firstName":'Doe',"lastName":'Jane',"age":19,"hairColor":'blue'}
+  ,{"firstName":'Smith',"lastName":'John',"age":28,"hairColor":'black'},
+  {"firstName":'Filmore',"lastName":'Miliard',"age":50,"hairColor":'brown'},
+  {"firstName":'Smith ',"lastName":'Maria',"age":62,"hairColor":'brown'}]
   return (
     <>
       <div className="App">
-      <h1>Hello Dojo</h1>
-      <h3>Things I need to Do .</h3>
-      <ul>
-        <li>Learn React</li>
-        <li>Climb Mt. Everest</li>
-        <li>Run a marathon</li>
-        <li> Feed the Dogs</li>
-      </ul>
-    </div>
+        <First user={user} />
+      </div>
     </>
   )
 }
