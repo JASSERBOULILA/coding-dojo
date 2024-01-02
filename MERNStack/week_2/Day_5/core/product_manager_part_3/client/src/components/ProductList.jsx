@@ -15,9 +15,11 @@ const ProductList = (props) => {
         }).catch(error=>{
             console.log(error);
         })
+        document.getElementById('div').remove();
     }
+    console.log(prod);
     return (
-        <div>
+        <div id='div'>
             <Link to={`/products/${props.id}`} >{prod.description}</Link>
             <Link to={`/products/${props.id}/edit`} > <button key={props.id}>Edit</button></Link>
             <button onClick={(e)=>deletes(e,props.id)}>Delete</button>
