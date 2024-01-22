@@ -14,7 +14,7 @@ const Find = () => {
     }, []);
     return (
         <div>
-            <p > The Title : {data.title}, The Price : {data.price},the Description : {data.description}</p>
+            <p>The Title : {data.title}, The Price : {data.price},the Description : {data.description}</p>
         </div>
     )
 }

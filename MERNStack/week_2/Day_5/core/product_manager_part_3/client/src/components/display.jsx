@@ -13,18 +13,18 @@ const Main = (props) => {
                 setLoaded(true);
             })
             .catch(err => console.error(err));
-    }, []);
+    }, [loaded]);
 
     return (
         <div>
             <Form setProduct={props.setProduct}/>
             <hr />
             <h1>All Products</h1>
-            {res?res.map((element,idx)=>(
+            {loaded && res.map((element,idx)=>(
                 console.log(element),
                 console.log(element._id),
                 <ProductList key={idx} prod={element} id={element._id} />
-            )):<p>There Is No Data</p>}
+            ))}
         </div>
     )
 }

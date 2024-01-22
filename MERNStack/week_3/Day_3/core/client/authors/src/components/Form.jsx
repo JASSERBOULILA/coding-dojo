@@ -30,8 +30,8 @@ const Form = (props) => {
         <div>
             <Link to="/">Home</Link>
             <fieldset>
+            {errors.map((err, index) => <p key={index}>{err}</p>)}
                 <form onSubmit={handleForm}>
-                {errors.map((err, index) => <p key={index}>{err}</p>)}
                     <label>Name</label>
                     <input type="text"
                         name="name"
