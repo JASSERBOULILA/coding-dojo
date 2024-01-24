@@ -25,10 +25,11 @@ public class TestOrders {
         order4.addItem(item2);
         System.out.printf("Order 4 Total After Adding : %s \n" , order4.getOrderTotal());
         order1.setReady(true);
+        String ord1 = order1.getStatusMessage();
+        System.out.println(ord1);
         //Sam Ordered 2 latte
         order4.addItem(item2);
         order4.addItem(item2);
         order4.display();
-        order2.setReady(true);
     }
 }
