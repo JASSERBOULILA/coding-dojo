@@ -1,3 +1,5 @@
+package Device;
+
 public class Device {
     private int battery;
 

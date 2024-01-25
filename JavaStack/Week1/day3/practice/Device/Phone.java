@@ -1,4 +1,8 @@
-public class Phone extends Device{
+package Device;
+
+import Device.Device;
+
+public class Phone extends Device {
 
     public Phone(){
         super();
