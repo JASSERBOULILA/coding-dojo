@@ -62,6 +62,14 @@ public class BankAccount {
     public double getBalance() {
         return checkingBalance + savingsBalance;
     }
+    public static  double getTotalMoneyAll(){
+        return totalMoney;
+    }
+
+    public static int getAccountsAll(){
+        return accounts;
+    }
+
 }
 // - all deposits and withdrawals should affect totalMoney
 // getBalance

@@ -14,7 +14,7 @@ public class BankTest {
         System.out.println("Account 2 Balance: " + account2.getBalance());
         System.out.println("Account 3 Balance: " + account3.getBalance());
         System.out.println("Total Money: " + (double)(account1.getBalance()+account2.getBalance()+account3.getBalance()));
-
+        System.out.println("Total Money 1 : "+ BankAccount.getTotalMoneyAll());
 
 
         // Withdrawal Test
@@ -25,13 +25,13 @@ public class BankTest {
         account2.withdraw(200, "savings");
         account3.withdraw(3000, "checking");
 
-        double totalMoney = (double)(account1.getBalance()+account2.getBalance()+account3.getBalance());
+
         System.out.println("Account 1 Balance: " + account1.getBalance());
         System.out.println("Account 2 Balance: " + account2.getBalance());
         System.out.println("Account 3 Balance: " + account3.getBalance());
-        System.out.println("The Total of Money for the All the Accounts Is :" + totalMoney);
+        System.out.println("The Total of Money for the All the Accounts Is :" + BankAccount.getTotalMoneyAll());
         // Static Test (print the number of bank accounts and the totalMoney)
-        System.out.println("the Total of your accounts is : " + account1.getAccounts());
+        System.out.println("the Total of your accounts is : " + BankAccount.getAccountsAll());
 
     }
 }
