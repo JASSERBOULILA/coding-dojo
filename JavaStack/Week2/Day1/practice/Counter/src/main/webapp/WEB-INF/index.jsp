@@ -9,9 +9,12 @@
 </head>
 <body>
     <h1>You have visited
-     <a href="#">http://your_server</a>
+     <a href="/your_server/countDouble">http://your_server</a>
       <c:out value="${counter}" />
      times <a href="/your_server">Test another Visit?</a></h1>
      <h2><c:out value="${counter}" /></h2>
+     <form method="post" action="/your_server/reset">
+          <button type="submit">Reset</button>
+     </form>
 </body>
 </html>
