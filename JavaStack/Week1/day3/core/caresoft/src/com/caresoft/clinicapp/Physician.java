@@ -1,11 +1,12 @@
+package com.caresoft.clinicapp;
 
 import java.util.ArrayList;
 import java.util.Date;
 
 public class Physician extends User implements HIPAACompliantUser {
-    private ArrayList<String> patientNotes;
-    private int pin;
-    // TO DO: Constructor that takes an IDcopy
+	private ArrayList<String> patientNotes;
+	
+	// TO DO: Constructor that takes an IDcopy
     public Physician(Integer id) {
         this.id = id;
         this.patientNotes = new ArrayList<>();
@@ -22,14 +23,19 @@ public class Physician extends User implements HIPAACompliantUser {
 
     @Override
     public boolean assignPin(int pin) {
-        // Pin must be exactly 4 digits
-        return String.valueOf(pin).length() == 4;
+        // Check if the pin is exactly 4 digits
+        if (String.valueOf(pin).length() == 4) {
+            this.pin = pin;
+            return true; // Pin assigned successfully
+        } else {
+            return false; // Invalid pin
+        }
     }
 
     @Override
     public boolean accessAuthorized(Integer confirmedAuthID) {
-        // Checks the physician's id against the given id
-        return confirmedAuthID.equals(this.getId());
+        // Simple authorization logic (e.g., allow access if the confirmedAuthID matches the user's ID)
+        return confirmedAuthID.equals(this.id);
     }
 
 

@@ -16,11 +16,11 @@ public class MainControllers {
         System.out.println("the search query is " + searchQuery);
         if(searchQuery == null){
             return "Hello Human";
-        }else if(searchQuery!=null && lastName != null && times == 0){
+        }else if(lastName != null && times == 0){
             String result ="Hello : ";
             result+=searchQuery+ " " +lastName;
             return result;
-        }else if(searchQuery != null && lastName!= null && times!= 0){
+        }else if(lastName != null && times != 0){
             String result = "";
 
             for(int i =0;i<times ; i++){
