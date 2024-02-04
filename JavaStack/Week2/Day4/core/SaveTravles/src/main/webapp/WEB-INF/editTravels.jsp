@@ -20,7 +20,7 @@
 <h1>
     Edit Travels
 </h1>
-<form:form action="/travels/editt/${travel.id}" method="post" modelAttribute="travels">
+<form:form action="/travels/editt/${travels.id}" method="post" modelAttribute="travels">
     <input type="hidden" name="_method" value="put">
     <p>
         <form:label path="expenseName">ExpenseName</form:label>
